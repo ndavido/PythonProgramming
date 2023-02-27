@@ -1,3 +1,5 @@
+# Q1
+# My answer
 def file_parser(filename):
     result = []
     with open(filename, 'r') as fileR:
@@ -13,7 +15,8 @@ def file_parser(filename):
         for r in result:
             fileW.write(f'{r[0]},{r[1]},{r[2]}\n')
 
-
+# Q2
+# My answer
 def file_sensorer(filename):
     sensitive_names = ['JUHANI', 'TIMO', 'AAPO', 'SIMEONI', 'LAURI', 'EERO', 'TUOMAS']
     with open(filename, 'r') as f:
